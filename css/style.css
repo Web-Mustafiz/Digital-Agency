@@ -672,10 +672,18 @@ p {
   background: var(--secondary-color);
 }
 
+.pricing-card:hover .plans {
+  color: var(--secondary-color);
+}
 .free .plans {
   padding: 15px 0;
   text-align: center;
   color: var(--secondary-color);
+}
+
+.free {
+  background: var(--white-color);
+  pointer-events: none;
 }
 
 .plans {
@@ -744,4 +752,5 @@ p {
 }
 
 /* ########################################## */
+
 /* ########################################## */
