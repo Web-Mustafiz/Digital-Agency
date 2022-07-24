@@ -753,4 +753,70 @@ p {
 
 /* ########################################## */
 
+.testimonial {
+  background: #f4f6ff;
+  padding-bottom: 50px;
+}
+
+.testimonial-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.testimonial-card {
+  position: relative;
+  padding: 30px 20px;
+  background: var(--white-color);
+  border-radius: 5px;
+}
+
+.testimonial-card::after {
+  content: "\201C";
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  background: var(--primary-color);
+  border-radius: 50%;
+  top: 25px;
+  left: 5px;
+  font-size: 50px;
+  color: var(--white-color);
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.description {
+  padding: 10px 25px;
+}
+
+.clients {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+.client-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.client-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.name h2 {
+  color: var(--primary-color);
+}
+
+.name h5 {
+  color: #777;
+}
+
 /* ########################################## */
