@@ -781,8 +781,7 @@ p {
   height: 35px;
   background: var(--primary-color);
   border-radius: 50%;
-  top: 25px;
-  left: 5px;
+  top: -15px;
   font-size: 50px;
   color: var(--white-color);
   text-align: center;
@@ -819,4 +818,48 @@ p {
   color: #777;
 }
 
+/* ########################################## */
+
+.blog-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.blog-img img {
+  width: 100%;
+}
+
+.blog-card {
+  background: #f9faff;
+}
+
+.blog-content {
+  padding: 0 25px;
+}
+
+.blog-details {
+  background: var(--white-color);
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  color: #777;
+}
+
+.blog-icon {
+  color: var(--primary-color);
+  margin-right: 3px;
+}
+
+.comment {
+  color: var(--primary-color);
+}
+
+.info {
+  padding: 15px 0;
+}
+
+/* ########################################## */
 /* ########################################## */
